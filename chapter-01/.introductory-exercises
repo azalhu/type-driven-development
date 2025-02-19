@@ -1,0 +1,26 @@
+Suggest possible operations that would satisfy the given input and output types:
+
+1)  Input type:     Vect n elem
+    Output type:    Vect n elem
+
+
+2)  Input type:     Vect n elem
+    Output type:    Vect (n * 2) elem
+
+
+3)  Input type:     Vect (1 + n) elem
+    Output type:    Vect n elem
+
+
+4)  Assume that `Bounded n` represents a number between zero and n - 1
+    Input type:     Bounded n, Vect n elem
+    Output type:    elem
+
+
+a:  vector addition, scalar multiplication
+
+b:  duplicate append
+
+c:  pop
+
+d:  index

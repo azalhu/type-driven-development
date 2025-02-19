@@ -1,0 +1,4 @@
+Referential transparancy:
+    an expression can be replaced by its result without changing the program's behaviour
+    a property of pure functions
+        (impure functions lose their side-effects if an expression is replaced by its result)
