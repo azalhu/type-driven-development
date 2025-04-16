@@ -1,0 +1,12 @@
+Referential transparancy:
+    an expression can be replaced by its result without changing the program's behaviour
+    a property of pure functions
+        (impure functions lose their side-effects if an expression is replaced by its result)
+
+
+Five basic type groups:
+    enumerated types    -   types defined by giving the possible values directly
+    union types         -   enumerated types that carry additional data with each value
+    recursive types     -   union types that are defined in terms of themselved
+    generic types       -   types that are parameterized over some other types
+    dependent types     -   types that are computed from some other value
